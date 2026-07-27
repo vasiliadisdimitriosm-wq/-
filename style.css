@@ -1,1 +1,65 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#111;
+    color:white;
+}
 
+header{
+    background:#000;
+    text-align:center;
+    padding:25px;
+    border-bottom:3px solid #d40000;
+}
+
+header h1{
+    margin:0;
+    color:#ff3333;
+    font-size:38px;
+}
+
+header p{
+    color:#ccc;
+    margin-top:8px;
+}
+
+.hero{
+    padding:60px 20px;
+    text-align:center;
+    background:linear-gradient(135deg,#111,#550000);
+}
+
+.hero h2{
+    font-size:32px;
+}
+
+.button{
+    display:inline-block;
+    margin-top:20px;
+    background:#d40000;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.section{
+    max-width:900px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#aaa;
+    background:#000;
+}
